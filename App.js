@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Counter max="1000"/>
+      <Counter/>
       <Counter min="-20"/>
       <Counter/>
     </View>
